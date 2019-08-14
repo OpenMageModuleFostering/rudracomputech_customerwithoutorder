@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <report>
+			<children>
+                <customers>
+            <children>
+			
+                <customerwithoutorder translate="title">
+                             <title>Customer without order</title>
+                            <action>adminhtml/report_customer/customerwithoutorder</action>
+                            <sort_order>1000</sort_order>
+                        </customerwithoutorder>
+                    
+               </children>
+                </customers>
+            </children>
+			
+        </report>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <report>
+						<children>
+							<customers>	
+                                <children>
+                                    <customerwithoutorder translate="title">
+                                       <title>Customer without order</title>
+                                        <children>
+                                            <view translate="title">
+                                                <title>View</title>
+                                            </view>
+                                        </children>
+                                    </customerwithoutorder>
+									</children>
+								</customers>
+                            </children>
+                            
+                    </report>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

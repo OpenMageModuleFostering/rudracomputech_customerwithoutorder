@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Rudracomputech_Customerwithoutorder>
+      <version>0.1.0</version>
+    </Rudracomputech_Customerwithoutorder>
+  </modules>
+  <global>
+	
+    <helpers>
+      <customerwithoutorder>
+        <class>Rudracomputech_Customerwithoutorder_Helper</class>
+      </customerwithoutorder>
+    </helpers>
+	<blocks>
+	  <customerwithoutorder>
+		<class>Rudracomputech_Customerwithoutorder_Block</class>
+	  </customerwithoutorder>
+	</blocks>
+  </global>
+  <admin>
+	<routers>
+		 <adminhtml>
+                   
+                <args>
+                    <modules>
+                        <Rudracomputech_Customerwithoutorder before="Mage_Adminhtml">Rudracomputech_Customerwithoutorder_Adminhtml</Rudracomputech_Customerwithoutorder>
+                    </modules>
+                </args>
+            </adminhtml>
+      
+  
+	</routers>
+  </admin>
+  <adminhtml>
+	
+  </adminhtml>
+</config> 

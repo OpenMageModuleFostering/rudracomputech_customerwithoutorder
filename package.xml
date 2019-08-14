@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rudracomputech_Customerwithoutorder</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension help you to get list of customers those are registered on your store but who didn't placed any order.</summary>
+    <description>Magento default admin customer report can only gives you list of customers by their number of orders with limitation of top 5 customers. But with our extension you will get list of all customers without any limitation. Admin can export list of registered customers who didnt purchase. Can be exported in excel or csv format. &#xD;
+ &#xD;
+you can generate the report from  &#xD;
+Admin &gt; Reports &gt; Customers &gt; Customer without order. &#xD;
+ &#xD;
+When you click on edit button you will redirect to customer account from where you can modify or delete the account as you requirement. &#xD;
+ &#xD;
+Please give us your suggestion and feedback to make this extension better on  &lt;a href="mailto:info@rudracomputech.com"&gt;mailto:info@rudracomputech.com &lt;/a&gt;. &#xD;
+</description>
+    <notes>Please report bug.</notes>
+    <authors><author><name>Rudra Computech</name><user>rudracomputech</user><email>rudracomputechs@gmail.com</email></author></authors>
+    <date>2015-07-27</date>
+    <time>22:24:57</time>
+    <contents><target name="magecommunity"><dir name="Rudracomputech"><dir name="Customerwithoutorder"><dir name="Block"><dir name="Adminhtml"><dir name="Report"><dir name="Customer"><dir name="Customerwithoutorder"><file name="Grid.php" hash="26df071933b05b6d1883e3b347193f9a"/></dir><file name="Customerwithoutorder.php" hash="4c93a429e053710bcf738b103bc31cc8"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="05aaa50c69a6a115e5fb86e61cacdcd1"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Report"><file name="CustomerController.php" hash="aa08cdd860c46c6ff630c33378f4ba93"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="60970fc52157dbd137bf57c15d34926c"/><file name="config.xml" hash="dd6ca7c1c499a016e85b490be7720b8e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rudracomputech_Customerwithoutorder.xml" hash="737e3d9d5e4eddddaea69108e866b0a3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
