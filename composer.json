@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Rudracomputech_Customerwithoutorder",
+    "name": "openmage-module-fostering\/rudracomputech_customerwithoutorder",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension help you to get list of customers those are registered on your store but who didn't placed any order.",
     "authors": [
